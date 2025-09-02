@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "dev.pages.test_earning_app.twa",
+    "package_name": "app.netlify.giftroyal",
     "sha256_cert_fingerprints": [
       "3F:24:F7:34:C1:9F:80:20:6B:C7:F8:7D:8C:FD:44:A2:EA:E2:0F:47:D5:53:B4:72:91:3D:E3:A3:C2:F0:19:AF"
     ]
