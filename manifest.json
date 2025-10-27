@@ -1,13 +1,10 @@
 {
   "name": "Gift Royal",
-  "short_name": "Gift Royal",
-  "start_url": "/",
-  "scope": "/",
+  "short_name": "GiftRoyal",
+  "start_url": "/app/user/index.php",
   "display": "standalone",
   "background_color": "#deddff",
   "theme_color": "#deddff",
-  "orientation": "portrait",
-  "description": "Earning tasks, rewards, and bonuses app.",
   "icons": [
     {
       "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4ZzKDrWORcADycAPXxebG2OxidkvaSlDfkwActd_HZQ2Oqscs0hYn4u0Sa2Zz0LP0NxdUGpWgRBwP_yUGR_og_FOG91475jgrub0zJZuMkOO0DSjNJ_0XrE8A8JEC69QBOLXv8Q56BRRXgFxiAsquqqBQjfdhmz8zsX1xwBvhjJ-UNyZFYm4KqLKxBvU/s512/icon.png",
@@ -19,13 +16,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "splash_screens": [
-    {
-      "src": "splash_screen.gif",
-      "sizes": "512x512",
-      "type": "image/gif"
-    }
-  ],
-  "id": "https://demotaxiapp.pages.dev/"
+  ]
 }
